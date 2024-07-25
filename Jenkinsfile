@@ -6,7 +6,7 @@ pipeline{
             {
                 steps
                 {
-                    sh 'javac Test.java'
+                    bat 'javac Test.java'
                 }
             }
 
@@ -14,7 +14,7 @@ pipeline{
             {
                 steps
                 {
-                    sh "java Test"
+                    bat "java Test"
                 }
             }
         }
